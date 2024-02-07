@@ -1,7 +1,0 @@
-Running: xsim.dir/testbenchLookAdder_behav/xsimk.exe -simmode gui -wdb testbenchLookAdder_behav.wdb -simrunnum 0 -socket 62019
-Design successfully loaded
-Design Loading Memory Usage: 8564 KB (Peak: 8564 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 9212 KB (Peak: 9212 KB)
-Simulation CPU Usage: 15 ms
