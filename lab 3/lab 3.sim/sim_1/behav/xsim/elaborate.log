@@ -1,0 +1,104 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbenchSelectAdder_behav xil_defaultlib.testbenchSelectAdder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv:66]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv:67]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv:73]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv:80]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 1. Module select_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 17. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 17. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 17. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 1. Module select_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 17. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 17. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 17. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 46. Module Select_ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 39. Module Select_full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv" Line 17. Module mux doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Select_full_adder
+Compiling module xil_defaultlib.Select_ADDER4
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.select_adder
+Compiling module xil_defaultlib.testbenchSelectAdder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbenchSelectAdder_behav

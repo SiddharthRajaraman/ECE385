@@ -1,0 +1,16 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+U:/ece 385/lab 3/lab 3.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sim_1/new/testbenchLookAdder.sv,1707259228,systemVerilog,,,,testbenchLookAdder,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sim_1/new/testbenchSelectAdder.sv,1707324548,systemVerilog,,,,testbenchSelectAdder,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/adder_toplevel.sv,1707185234,systemVerilog,,,,adder_toplevel,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/hex_driver.sv,1707185234,systemVerilog,U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/adder_toplevel.sv;U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/load_reg.sv;U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/negedge_detector.sv;U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/ripple_adder.sv;U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/sync_debounce.sv,U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/load_reg.sv,,$unit_hex_driver_sv_768700508;hex_driver,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/load_reg.sv,1707185234,systemVerilog,,U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/negedge_detector.sv,,load_reg,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/lookahead_adder.sv,1707259590,systemVerilog,,U:/ece 385/lab 3/lab 3.srcs/sim_1/new/testbenchLookAdder.sv,,lookahead_adder,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/negedge_detector.sv,1707185235,systemVerilog,,U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/ripple_adder.sv,,negedge_detector,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/ripple_adder.sv,1707187658,systemVerilog,,U:/ece 385/lab3_provided_sp24/sim_source/testbench_8.sv,,ripple_adder,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/select_adder.sv,1707324495,systemVerilog,,U:/ece 385/lab 3/lab 3.srcs/sim_1/new/testbenchSelectAdder.sv,,select_adder,,uvm,,,,,,
+U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/sync_debounce.sv,1707185235,systemVerilog,,U:/ece 385/lab 3/lab 3.srcs/sources_1/imports/design_source/adder_toplevel.sv,,sync_debounce,,uvm,,,,,,
+U:/ece 385/lab3_provided_sp24/sim_source/testbench_8.sv,1707258571,systemVerilog,,,,testbench8,,uvm,,,,,,
